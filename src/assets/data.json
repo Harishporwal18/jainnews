@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Clinical Depression",
+    "image": "assets/img/banner5.jpg",
+    "shortdesc": "Depression is a Major disease which goes unknown",
+    "desc": "<p>We at <b>Trogo Digital</b> design and develop full-fledged mobile applications to implement different ideas for app users. We tend to design the most actionable mobile apps to fit in vary of categories.We are trying to be part of your lifestyle and let you rely on ourproducts and address all the important issues in your life. Our appswill intent to change the definiton of your everyday activity.</p>"
+  },
+  {
+    "id": "2",
+    "name": "Anxiety Disorder",
+    "image": "assets/img/banner1.jpg",
+    "shortdesc": "Depression is a Major disease which goes unknown",
+    "desc": "<p>We at <b>Trogo Digital</b> design and develop full-fledged mobile applications to implement different ideas for app users. We tend to design the most actionable mobile apps to fit in vary of categories.We are trying to be part of your lifestyle and let you rely on ourproducts and address all the important issues in your life. Our appswill intent to change the definiton of your everyday activity.</p>"
+  },
+  {
+    "id": "3",
+    "name": "Bipolar Disorder",
+    "image": "assets/img/banner5.jpg",
+    "desc": "<p>We at <b>Trogo Digital</b> design and develop full-fledged mobile applications to implement different ideas for app users. We tend to design the most actionable mobile apps to fit in vary of categories.We are trying to be part of your lifestyle and let you rely on ourproducts and address all the important issues in your life. Our appswill intent to change the definiton of your everyday activity.</p>"
+  }
+]

@@ -1,0 +1,35 @@
+<ion-content no-padding>
+  <ion-slides [options]="slideOptsOne" class="slides" #slideWithNav>
+    <ion-slide *ngFor="let news of NewsList; let i = index;">
+      <div class="banner1">
+        <img
+          class="image"
+          src='{{"https://firebasestorage.googleapis.com/v0/b/news-17933.appspot.com/o/images%2F"+news.image+"?alt=media&token=5c910776-18c0-4077-a662-4fd9507b773c"}}'
+          vertical-align="top"
+        />
+        <div class="slidetitle" align="center">
+          <span class="block">{{news.title}}</span>
+        </div>
+        <div [innerHTML]="news.desc" class="desc"></div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <ion-slides [options]="slideOptsTwo" #slideWithHor>
+        <ion-slide style="background-color: green;" class="swiper-horizontal">
+          <div class="banner2">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/news-17933.appspot.com/o/images%2F1596809444.jpg?alt=media&token=5c910776-18c0-4077-a662-4fd9507b773c"
+            />
+          </div>
+        </ion-slide>
+        <ion-slide style="background-color: blue;">
+          <div class="banner2">
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/news-17933.appspot.com/o/images%2F1596809444.jpg?alt=media&token=5c910776-18c0-4077-a662-4fd9507b773c"
+            />
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
