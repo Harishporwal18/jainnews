@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBtb7SAhfAusmQBOs7b24N0aqNP4GJeBQ0",
-    authDomain: "news-17933.firebaseapp.com",
-    databaseURL: "https://news-17933.firebaseio.com",
-    projectId: "news-17933",
-    storageBucket: "news-17933.appspot.com",
-    messagingSenderId: "759243456368",
-    appId: "1:759243456368:web:005196c1e4e3274d8e99b5",
+    apiKey: "AIzaSyBTrAawjQbiSDg96YR3v3VYxm1Hqv9omfA",
+    authDomain: "jain-news.firebaseapp.com",
+    databaseURL: "https://jain-news.firebaseio.com",
+    projectId: "jain-news",
+    storageBucket: "jain-news.appspot.com",
+    messagingSenderId: "9117558876",
+    appId: "1:9117558876:web:a78a77d9ec7efac965de99",
   },
 };
 

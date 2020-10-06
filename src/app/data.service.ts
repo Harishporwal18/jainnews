@@ -22,7 +22,7 @@ export class DataService {
   private newsCollection: AngularFirestoreCollection<NewsModel>;
   private newsList: Observable<NewsModel[]>;
   constructor(db: AngularFirestore) {
-    this.newsCollection = db.collection<NewsModel>("news");
+    this.newsCollection = db.collection<NewsModel>("News");
 
     this.newsList = this.newsCollection.snapshotChanges().pipe(
       map((actions) => {
